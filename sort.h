@@ -8,7 +8,7 @@
  * @prev: Pointer to the orevious element of the list
  * @next: Pointer to the next element of the list
  */
-typedef stuct listint_s
+typedef struct listint_s
 {
 	const int n;
 	struct listint_s *prev;
@@ -17,3 +17,4 @@ typedef stuct listint_s
 
 void bubble_sort(int *array, size_t size);
 void print_array(const int *array, size_t size);
+#endif
